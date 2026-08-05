@@ -1,73 +1,43 @@
 <div align="center">
 
-# Hi, I'm Gaurav Raj 👋
+<img src="./assets/profile-banner.svg" alt="Gaurav Raj — AI/ML Engineer" width="100%" />
 
-### AI/ML Developer @ IIT Roorkee
+<br/>
 
-*Building intelligent agents and production-ready machine learning systems*
+### Building reliable agentic systems, fraud-detection pipelines, and production ML infrastructure
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-raj-3ba84b254/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gauravraj93689@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gauravraj004)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-raj-3ba84b254/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gauravraj93689@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Gauravraj004-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gauravraj004)
 
 </div>
 
 ---
 
-## 🎯 About Me
+## About
 
-I'm a passionate AI/ML developer currently pursuing my studies at **IIT Roorkee**, with a strong focus on building intelligent systems that solve real-world problems. My work spans from developing sophisticated LLM-powered agents to implementing deep learning models for production environments.
+I am an **AI/ML engineer and IIT Roorkee graduate** focused on building systems that work beyond the prototype stage. My work combines applied machine learning, agentic workflows, backend engineering, and reproducible scientific software.
 
-I believe in writing clean, maintainable code and creating solutions that are not just technically sound, but also practical and scalable.
-
----
-
-## 🚀 What I Work On
-
-### LLM Agents & Automation
-Building intelligent agents powered by large language models, including multi-tool search systems, automated email workflows, and voice-enabled conversational interfaces.
-
-### Deep Learning & NLP
-Developing neural network architectures for natural language processing tasks, sentiment analysis, and classification problems using TensorFlow and PyTorch.
-
-### Full-Stack AI Applications
-Creating end-to-end AI-powered applications with modern web frameworks, focusing on seamless user experiences and robust backend systems.
-
----
-
-## 🛠️ Technical Skills
+At **DigiDoe**, I work on AML and fraud-detection systems for a London banking platform, including anomaly detection, explainable transaction scoring, PostgreSQL-backed persistence, and event-driven processing. During my research internship at **NIMS Japan**, I helped develop **VibeTube**, an open-source pipeline for automated carbon-nanotube chirality analysis from TEM images and became a formally designated **co-first author** on the resulting publication in *Science and Technology of Advanced Materials*.
 
 <table>
 <tr>
-<td valign="top" width="33%">
+<td width="33%" valign="top">
 
-### Programming Languages
-- Python
-- JavaScript
-- SQL
-- Bash
+### Production AI
+Transaction monitoring, anomaly detection, client-specific calibration, explainable decisions, and reliable data pipelines.
 
 </td>
-<td valign="top" width="33%">
+<td width="33%" valign="top">
 
-### AI/ML Frameworks
-- TensorFlow
-- PyTorch
-- LangChain
-- Transformers
-- Keras
-- Scikit-learn
+### Agentic Systems
+LangGraph workflows with memory, tool use, API integrations, and human approval boundaries.
 
 </td>
-<td valign="top" width="33%">
+<td width="33%" valign="top">
 
-### Tools & Technologies
-- Git & GitHub
-- Docker
-- Streamlit
-- Flask
-- Jupyter
-- REST APIs
+### Scientific Software
+Deterministic image-analysis pipelines combining FFT processing, feature extraction, and domain-specific classification.
 
 </td>
 </tr>
@@ -75,51 +45,166 @@ Creating end-to-end AI-powered applications with modern web frameworks, focusing
 
 ---
 
-## 💡 Featured Projects
+## Experience
 
-### 🎤 [InterviewIQ: Voice-Enabled AI Interview Simulator](https://github.com/Gauravraj004/InterviewIQ-Voice-Enabled-AI-Interview-Simulator)
-A full-stack web application providing personalized, conversational interview practice experiences. Built with Flask and AI agents, featuring real-time voice interaction and intelligent feedback systems.
+### Software Engineer · DigiDoe
+**Independent Contractor · Remote, London · Feb 2026 – Present**
 
-### 🔍 [LLM Search Agent with Tools](https://github.com/Gauravraj004/llm-search-agent-with-tools)
-Streamlit-powered LangChain agent leveraging Groq LLM to search across multiple sources (Arxiv, Wikipedia, web) in real-time, demonstrating advanced agent orchestration and tool integration.
+- Building an ML-driven AML and fraud-detection system that classifies suspicious transactions across multiple fraud types, paired with rule-based explainability.
+- Developed unsupervised anomaly detection using clustering and statistical scoring on production transaction data, including per-client threshold calibration.
+- Built PostgreSQL persistence with schema migrations for transactions, decisions, alerts, KYC profiles, model versions, and message processing.
+- Implemented event-driven transaction processing with session ordering, retries, deduplication, and dead-letter handling.
+- Containerized and validated the service end to end with Docker.
 
-### 📸 [SpikeAI Screenshot Diagnosis](https://github.com/Gauravraj004/spikeai-screenshot-diagnosis)
-Production-ready AI system for intelligent screenshot analysis and diagnosis, implementing computer vision techniques and automated quality assessment.
+### Machine Learning Intern · National Institute for Materials Science, Japan
+**Tsukuba, Japan · May 2025 – Aug 2025**
 
-### 🎬 [IMDB Sentiment Analysis](https://github.com/Gauravraj004/IMBD-movie-review-analysis)
-Deep learning NLP model using Recurrent Neural Networks (RNN) for sentiment classification on the IMDB dataset, built with TensorFlow and Keras.
+- Built an end-to-end pipeline for automated carbon-nanotube chirality analysis from TEM images.
+- Combined FFT-based feature extraction, Lorentzian peak fitting, and lookup-based classification with error propagation.
+- Designed deterministic preprocessing and inference for reproducible scientific analysis.
+- Validated the workflow on **6,930 simulated images spanning 330 nanotube structures**.
+- Work led to **VibeTube** and a co-first-author publication in *Science and Technology of Advanced Materials*.
 
----
+### Machine Learning Intern · GreenIntel Energy Solutions
+**Remote · Jan 2025 – Feb 2025**
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Gauravraj004&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF)
-
-</div>
-
----
-
-## 💼 Currently Open To
-
-🎯 **Internships** — AI/ML Engineering, Backend Development, Full-Stack Development  
-💻 **Full-Time Roles** — Software Engineer, Machine Learning Engineer, AI Developer  
-💰 **Bounties & Freelance** — Open-source contributions, bug fixes, feature implementations
+- Developed conversational AI workflows for FAQs, order queries, and product recommendations.
+- Added API routing and fallback escalation logic to improve coverage and reduce operator load.
 
 ---
 
-## 📫 Let's Connect
+## Selected Projects
 
-I'm always interested in collaborating on exciting projects, discussing new ideas, or exploring opportunities in AI/ML. Feel free to reach out!
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [Smart Email Agent](https://github.com/Gauravraj004/Smart-Email-Agent)
+
+A production-oriented email automation agent that classifies incoming messages, retrieves context, drafts replies, and keeps a human approval gate before sending.
+
+`Python` `LangGraph` `Gmail API` `Memory` `Human-in-the-loop`
+
+</td>
+<td width="50%" valign="top">
+
+### [Memory-Enhanced Email Agent](https://github.com/Gauravraj004/Memory-Enhanced-Email-Agent)
+
+A LangGraph agent with embedding-based memory for consistent behavior across long email threads and context-aware drafting.
+
+`LangGraph` `Embeddings` `Agent Memory` `Automation`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [InterviewIQ](https://github.com/Gauravraj004/InterviewIQ-Voice-Enabled-AI-Interview-Simulator)
+
+A voice-enabled AI interview simulator designed for conversational practice, adaptive interaction, and structured feedback.
+
+`Python` `Flask` `Voice AI` `LLM Applications`
+
+</td>
+<td width="50%" valign="top">
+
+### [LLM Search Agent](https://github.com/Gauravraj004/llm-search-agent-with-tools)
+
+A Streamlit-powered LangChain agent that searches Arxiv, Wikipedia, and the web through coordinated tools.
+
+`LangChain` `Groq` `Streamlit` `Tool Use`
+
+</td>
+</tr>
+</table>
+
+> I am currently developing a public, sanitized transaction-risk engine to demonstrate production ML and event-driven system design without exposing employer code, data, or proprietary logic.
+
+---
+
+## Research
+
+### VibeTube: a code for accurate extraction of CNTs’ chirality from TEM images
+
+**Science and Technology of Advanced Materials · 2026**  
+**Daiming Tang and Gaurav Raj contributed equally · Co-first author**
+
+VibeTube automates a specialist microscopy workflow used to determine carbon-nanotube chirality from TEM images. The system combines deterministic preprocessing, FFT analysis, peak fitting, uncertainty handling, and structure matching in a reusable scientific Python workflow.
+
+**Research contribution:** scientific automation · image analysis · FFT processing · reproducible inference · carbon nanotube characterization
+
+---
+
+## Technical Stack
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+### AI & Agents
+- LangGraph
+- LangChain
+- RAG
+- Embeddings
+- Tool calling
+- Human-in-the-loop
+
+</td>
+<td width="25%" valign="top">
+
+### ML & Data
+- scikit-learn
+- pandas
+- NumPy
+- Hugging Face
+- Clustering
+- Anomaly detection
+
+</td>
+<td width="25%" valign="top">
+
+### Backend
+- Python
+- SQL
+- Flask
+- REST APIs
+- PostgreSQL
+- Alembic
+
+</td>
+<td width="25%" valign="top">
+
+### Infrastructure
+- Docker
+- Azure Service Bus
+- Git & GitHub
+- Event-driven systems
+- Jupyter
+- Gmail API
+
+</td>
+</tr>
+</table>
+
+---
+
+## Engineering Principles
+
+- Build systems that are observable, testable, and safe to operate.
+- Keep model decisions explainable when they affect real users or financial workflows.
+- Separate experimental notebooks from reusable production code.
+- Design human approval boundaries for high-impact agent actions.
+- Prefer reproducible pipelines over opaque one-off results.
+
+---
+
+## Currently Open To
+
+I am interested in **full-time AI engineering, machine learning engineering, applied AI, and backend engineering roles**, particularly with teams building agentic systems or production AI infrastructure.
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-raj-3ba84b254/)
-[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gauravraj93689@gmail.com)
-
----
-
-*"Building the future, one commit at a time"* 🚀
+[![Email](https://img.shields.io/badge/Email_Gaurav-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gauravraj93689@gmail.com)
 
 </div>
