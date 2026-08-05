@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-label="Gaurav Raj AI ML Engineer banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1730"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="480" rx="28" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#60a5fa" stroke-width="1">
+    <path d="M0 80H1600M0 160H1600M0 240H1600M0 320H1600M0 400H1600"/>
+    <path d="M100 0V480M300 0V480M500 0V480M700 0V480M900 0V480M1100 0V480M1300 0V480M1500 0V480"/>
+  </g>
+  <g transform="translate(80 80)" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.9">
+    <circle cx="60" cy="65" r="13" fill="#07111f"/>
+    <circle cx="170" cy="25" r="13" fill="#07111f"/>
+    <circle cx="180" cy="120" r="13" fill="#07111f"/>
+    <circle cx="280" cy="75" r="13" fill="#07111f"/>
+    <circle cx="115" cy="185" r="13" fill="#07111f"/>
+    <circle cx="245" cy="210" r="13" fill="#07111f"/>
+    <path d="M72 60L157 30M72 72L167 114M184 38L273 70M192 124L270 82M63 78L108 174M127 183L232 207M183 133L235 198"/>
+  </g>
+  <g transform="translate(1260 74)" fill="none" stroke="#22d3ee" stroke-width="3" opacity="0.7">
+    <path d="M0 20C55-15 110-15 165 20S275 55 330 20M0 70C55 35 110 35 165 70S275 105 330 70M0 120C55 85 110 85 165 120S275 155 330 120M0 170C55 135 110 135 165 170S275 205 330 170M0 220C55 185 110 185 165 220S275 255 330 220"/>
+    <path d="M15 5L15 235M65 0L65 240M115 0L115 240M165 0L165 240M215 0L215 240M265 0L265 240M315 5L315 235" opacity="0.45"/>
+  </g>
+  <rect x="430" y="78" width="740" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="800" y="178" text-anchor="middle" fill="#f8fafc" font-size="78" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Gaurav Raj</text>
+  <text x="800" y="238" text-anchor="middle" fill="#a5f3fc" font-size="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">AI/ML Engineer</text>
+  <text x="800" y="300" text-anchor="middle" fill="#cbd5e1" font-size="25" font-family="Inter,Segoe UI,Arial,sans-serif">Agentic AI • Fraud Detection • Production ML • Scientific Computing</text>
+  <g transform="translate(540 350)">
+    <rect width="520" height="54" rx="27" fill="#0f223d" stroke="#334155"/>
+    <circle cx="30" cy="27" r="8" fill="#22d3ee" filter="url(#glow)"/>
+    <text x="55" y="35" fill="#e2e8f0" font-size="21" font-family="Inter,Segoe UI,Arial,sans-serif">Building reliable AI systems beyond the prototype stage</text>
+  </g>
+</svg>
