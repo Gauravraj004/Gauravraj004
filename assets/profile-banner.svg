@@ -9,10 +9,16 @@
       <stop offset="0" stop-color="#22d3ee"/>
       <stop offset="1" stop-color="#8b5cf6"/>
     </linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
   <rect width="1600" height="480" rx="28" fill="url(#bg)"/>
-  <g opacity="0.18" stroke="#60a5fa" stroke-width="1">
+  <g opacity="0.14" stroke="#60a5fa" stroke-width="1">
     <path d="M0 80H1600M0 160H1600M0 240H1600M0 320H1600M0 400H1600"/>
     <path d="M100 0V480M300 0V480M500 0V480M700 0V480M900 0V480M1100 0V480M1300 0V480M1500 0V480"/>
   </g>
@@ -33,9 +39,9 @@
   <text x="800" y="178" text-anchor="middle" fill="#f8fafc" font-size="78" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Gaurav Raj</text>
   <text x="800" y="238" text-anchor="middle" fill="#a5f3fc" font-size="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600">AI/ML Engineer</text>
   <text x="800" y="300" text-anchor="middle" fill="#cbd5e1" font-size="25" font-family="Inter,Segoe UI,Arial,sans-serif">Agentic AI • Fraud Detection • Production ML • Scientific Computing</text>
-  <g transform="translate(540 350)">
-    <rect width="520" height="54" rx="27" fill="#0f223d" stroke="#334155"/>
-    <circle cx="30" cy="27" r="8" fill="#22d3ee" filter="url(#glow)"/>
-    <text x="55" y="35" fill="#e2e8f0" font-size="21" font-family="Inter,Segoe UI,Arial,sans-serif">Building reliable AI systems beyond the prototype stage</text>
+  <g transform="translate(575 348)">
+    <rect width="450" height="50" rx="25" fill="#10233c" fill-opacity="0.72" stroke="#2f4769" stroke-opacity="0.92"/>
+    <circle cx="28" cy="25" r="7" fill="#22d3ee" filter="url(#glow)"/>
+    <text x="50" y="32" fill="#e2e8f0" font-size="19" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="500">Building reliable AI systems beyond prototypes</text>
   </g>
 </svg>
