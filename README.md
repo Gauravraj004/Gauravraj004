@@ -8,7 +8,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-raj-3ba84b254/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gauravraj93689@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Gauravraj004-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gauravraj004)
 
 </div>
 
@@ -18,7 +17,7 @@
 
 I am an **AI/ML engineer and IIT Roorkee graduate** focused on building systems that work beyond the prototype stage. My work combines applied machine learning, agentic workflows, backend engineering, and reproducible scientific software.
 
-At **DigiDoe**, I work on AML and fraud-detection systems for a London banking platform, including anomaly detection, explainable transaction scoring, PostgreSQL-backed persistence, and event-driven processing. During my research internship at **NIMS Japan**, I helped develop **VibeTube**, an open-source pipeline for automated carbon-nanotube chirality analysis from TEM images and became a formally designated **co-first author** on the resulting publication in *Science and Technology of Advanced Materials*.
+At **DigiDoe**, I work on AML and fraud-detection systems for a London banking platform, including anomaly detection, explainable transaction scoring, PostgreSQL-backed persistence, and event-driven processing. During my research internship at **NIMS Japan**, I co-developed **VibeTube**, an open-source pipeline for automated carbon-nanotube chirality analysis from TEM images, and became a formally designated **co-first author** on the resulting publication in *Science and Technology of Advanced Materials*.
 
 <table>
 <tr>
@@ -31,7 +30,7 @@ Transaction monitoring, anomaly detection, client-specific calibration, explaina
 <td width="33%" valign="top">
 
 ### Agentic Systems
-LangGraph workflows with memory, tool use, API integrations, and human approval boundaries.
+Human-in-the-loop workflows with memory, tool use, API integrations, and explicit approval boundaries.
 
 </td>
 <td width="33%" valign="top">
@@ -79,46 +78,49 @@ Deterministic image-analysis pipelines combining FFT processing, feature extract
 <tr>
 <td width="50%" valign="top">
 
-### [Smart Email Agent](https://github.com/Gauravraj004/Smart-Email-Agent)
+### [AI Outreach Assistant](https://github.com/Gauravraj004/AI-outreach-assistant)
 
-A production-oriented email automation agent that classifies incoming messages, retrieves context, drafts replies, and keeps a human approval gate before sending.
+A privacy-conscious Chrome extension for generating grounded LinkedIn outreach drafts from visible profile context. It uses explicit consent, local settings, review-first generation, and manual sending rather than bulk automation.
 
-`Python` `LangGraph` `Gmail API` `Memory` `Human-in-the-loop`
+`JavaScript` `Chrome MV3` `Gemini API` `Human-in-the-loop` `Privacy`
 
 </td>
 <td width="50%" valign="top">
 
-### [Memory-Enhanced Email Agent](https://github.com/Gauravraj004/Memory-Enhanced-Email-Agent)
+### [Smart Email Agent](https://github.com/Gauravraj004/Smart-Email-Agent)
 
-A LangGraph agent with embedding-based memory for consistent behavior across long email threads and context-aware drafting.
+A local Gmail outreach workflow with draft review, reply detection, threaded follow-ups, and campaign tracking designed around explicit human control.
 
-`LangGraph` `Embeddings` `Agent Memory` `Automation`
+`Python` `Gmail API` `Automation` `Human-in-the-loop`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [InterviewIQ](https://github.com/Gauravraj004/InterviewIQ-Voice-Enabled-AI-Interview-Simulator)
+### [Memory-Enhanced Email Agent](https://github.com/Gauravraj004/Memory-Enhanced-Email-Agent)
 
-A voice-enabled AI interview simulator designed for conversational practice, adaptive interaction, and structured feedback.
+A LangGraph-based email assistant with embedding-backed memory, context-aware drafting, and a draft-only review boundary before any message is sent.
 
-`Python` `Flask` `Voice AI` `LLM Applications`
+`LangGraph` `LangChain` `Embeddings` `Gmail API`
 
 </td>
 <td width="50%" valign="top">
 
-### [LLM Search Agent](https://github.com/Gauravraj004/llm-search-agent-with-tools)
+### [InterviewIQ](https://github.com/Gauravraj004/InterviewIQ-Voice-Enabled-AI-Interview-Simulator)
 
-A Streamlit-powered LangChain agent that searches Arxiv, Wikipedia, and the web through coordinated tools.
+A Flask-based AI interview simulator with resume-grounded RAG, conversational history, speech transcription, and browser-based interaction.
 
-`LangChain` `Groq` `Streamlit` `Tool Use`
+`Python` `Flask` `RAG` `Voice` `Astra DB`
 
 </td>
 </tr>
 </table>
 
-> I am currently developing a public, sanitized transaction-risk engine to demonstrate production ML and event-driven system design without exposing employer code, data, or proprietary logic.
+### [LLM Search Agent](https://github.com/Gauravraj004/llm-search-agent-with-tools)
+A Streamlit-powered LangChain agent that searches Arxiv, Wikipedia, and the web through coordinated tools.
+
+`LangChain` `Groq` `Streamlit` `Tool Use`
 
 ---
 
@@ -179,7 +181,7 @@ VibeTube automates a specialist microscopy workflow used to determine carbon-nan
 - Azure Service Bus
 - Git & GitHub
 - Event-driven systems
-- Jupyter
+- Chrome Extensions
 - Gmail API
 
 </td>
@@ -192,8 +194,8 @@ VibeTube automates a specialist microscopy workflow used to determine carbon-nan
 
 - Build systems that are observable, testable, and safe to operate.
 - Keep model decisions explainable when they affect real users or financial workflows.
-- Separate experimental notebooks from reusable production code.
-- Design human approval boundaries for high-impact agent actions.
+- Use explicit human approval for high-impact agent actions.
+- Minimize sensitive data and make privacy boundaries visible to users.
 - Prefer reproducible pipelines over opaque one-off results.
 
 ---
